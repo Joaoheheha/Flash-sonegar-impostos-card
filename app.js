@@ -9,7 +9,7 @@ function criaCartao (categoria, pergunta, resposta) {
         <div class="cartao__conteudo__pergunta">
              <p>${pergunta}</p>
          </div>
-        div class="cartao__conteudo__resposta">
+        <div class="cartao__conteudo__resposta">
              <p>${resposta}</p>
          </div>
      </div> 
@@ -23,7 +23,7 @@ function criaCartao (categoria, pergunta, resposta) {
     }
 
     cartao.addEventListener('click', viraCartao)
-    
+
     container.appendChild (cartao)
 
 }
