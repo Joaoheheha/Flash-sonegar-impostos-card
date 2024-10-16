@@ -63,7 +63,7 @@ body{
     
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
  transform: rotatey(180deg);
 }
 
@@ -100,7 +100,7 @@ footer p {
 
 @media (max-width: 560px) {
   body{
-    background: url('/assets/img/bg-mobile.webp');
+    background: url('img/bg-mobile.webp');
       }
 
 .cartao {
