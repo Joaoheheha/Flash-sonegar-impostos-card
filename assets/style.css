@@ -5,8 +5,8 @@
 }
 
 body{ 
-    background: url('/assets/img/bg-desktop.webp');
-    font-family: "Bai Jamjuree", sans-serif;
+    background: url('img/bg-desktop.webp');
+    font-family: Bai Jamjuree, sans-serif;
 }
 
 #container {
